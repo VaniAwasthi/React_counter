@@ -15,16 +15,18 @@ function Counter(){
         console.log(counter)
     }
     return(
-        <div className="container">
-            <div className="subContainer">
+        <div className="counter">
+          <div className="container"> 
+              <div className="subContainer">
                 <h1>Counter</h1>
                 <div className="buttons">
                     <button className="increament" onClick={increment}> Increament</button>
                     <button className="decrement" onClick={decrement}>Decrement</button>
-                    <h3>{counter}</h3>
                 </div>
+                <h3>{counter}</h3>
 
             </div>
+          </div>
 
 
 
